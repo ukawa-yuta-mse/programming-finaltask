@@ -142,9 +142,7 @@ start: //“ü—Í‚³‚ê‚½•¶Žš‚É“–‚Ä‚Í‚Ü‚é‚à‚Ì‚ª‚È‚©‚Á‚½ê‡A‚±‚±‚É–ß‚Á‚Ä‚­‚é‚½‚ß‚Ìƒ‰ƒ
     //ƒL[ƒ{[ƒh‚Å“ü—Í‚³‚ê‚½•¶Žš‚ªã‚Ì‚Ç‚ê‚É‚à“–‚Ä‚Í‚Ü‚ç‚È‚¢ê‡
     else {
         //ƒGƒ‰[ƒƒbƒZ[ƒW‚Ì•\Ž¦
-        cout << "@@@”ERROR”@@@" << "\n"
-            << " You pushed '" << sort << "' !" << "\n"
-            << " PUSH 't','r','d',or's'." << "\n" << "\n";
+        cout << "@@@”ERROR”@@@" << endl;
         goto start; //ƒ‰ƒxƒ‹‚Ìstart‚ÌˆÊ’u‚Ü‚Å–ß‚é
     }
 }
